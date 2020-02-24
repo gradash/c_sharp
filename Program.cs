@@ -9,7 +9,7 @@ namespace learning
             Console.ForegroundColor = ConsoleColor.Blue;
 
 
-            Console.WriteLine("age: ");
+            Console.WriteLine("age:  ");
             string text = Console.ReadLine();
             int a = Convert.ToInt32(text);
             if (a < 18)
@@ -18,7 +18,7 @@ namespace learning
             }
             else
             {
-                Console.WriteLine("too old");
+                Console.WriteLine("too oldsds");
             }
             Console.ReadKey();
         }
